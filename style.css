@@ -1,0 +1,335 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, verdana, sans-serif;
+    text-decoration: none;
+    color: pink;
+}
+/* div{
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 1%;
+} */
+#userPic,#midLinks,#header,#nav,#content,#contentRight,#contentLeft,.insideContent2nd,#content3rd{
+    display: inline-block;
+    vertical-align: top;
+}
+.topBot{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+}
+body{
+    min-width: 100%;
+    height: 100%;
+    background-image:url(https://www.teahub.io/photos/full/113-1136261_deep-ocean-wallpaper-free-download.jpg);
+    background-size: 200%;
+    animation: bg-pan-bottom 8s 1 alternate both;
+}
+#container{
+    width: min(500px,80%);
+    height: min(500px,90%,70vh);
+    padding: 0 10px 0 10px;
+    background:transparent;
+    margin: auto;
+    z-index: 999;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerImg{
+    height: 70px;
+    width: 25%;
+}
+img,ul li,ul:not(footer ul){
+    display: inline-block;
+}
+#logo{
+    width: 100%;
+    height: 60px;
+}
+#headerUl{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    margin-left: 8px;
+}
+#midLinks{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerUser{
+    width: 25%;
+    height: 100%;
+}
+#userPic{
+    height: 100%;
+    width: 100%;
+    border-radius: 30%;
+}
+#nav{
+    width: 100%;
+    height: fit-content;
+    /* margin: 0px 10px 10px 0px; */
+    padding: 10px 0;
+}
+#navUl{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navLi{
+    margin: auto;
+}
+form{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+#formh1{
+    /* margin: auto; */
+    font-size: 15px;
+    /* display: block; */
+}
+#content{
+    width: 100%;
+    height: 100vh;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contentRight{
+    width: 40%;
+    height: 100%;
+    padding: 5px 0;
+    overflow-x: hidden;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.contentHeader{
+    width: 176px;
+    height: 135px;
+    margin-bottom: 12px;
+}
+#contentLeft{
+    width: 60%;
+    height: 100%;
+    /* vertical-align: top; */
+    /* margin-left: 1%; */
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+#promotionalB{
+    width: 100%;
+    height: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 22px;
+    /* margin: 20px; */
+    padding-left: 15px;
+}
+#content2nd{
+    width: 100%;
+    height: 75%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content3rd{
+    width: 100%;
+    height: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lowerBanner{
+    height: 100%;
+    width: 30%;
+}
+#midB{
+    margin: 0px 12px;
+}
+.insideContent2nd{
+    width: 50%;
+    height: 50%;
+}
+.contentImg{
+    width: 100%;
+    height: 50%;
+}
+.contentH2{
+    padding: 15px;
+}
+p{
+    font-size: 8px;
+    padding: 0px 15px;
+}
+.headerH2{
+    padding: 7px;
+    padding-left: 18px;
+}
+button{
+    width: 77px;
+    height: 26px;
+    margin: 6px 5px 0px 85px;
+}
+#nav,.lowerBanner,#container,#contentRight,.contentHeader,#promotionalB,#content2nd,.insideContent2nd{
+    border: 1px solid transparent;
+}
+h1,h2{
+    text-align: center;
+    display: block;
+}
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    background: linear-gradient(45deg, blue, violet);
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
+}
+#nat:hover{
+    rotate: -90deg;
+}
+#midB:hover{
+    rotate: 90deg;
+}
+.contentImg,img{
+    border-radius: 10%;
+}
+h1,h2{
+    animation: myAnim 1s ease 0s infinite normal forwards;
+}
+li{
+    width: fit-content;
+    height: fit-content;
+}
+i:hover{
+    transform: scale(1.5);
+}
+.lowerBanner:hover{
+    transform: scale(1.1);
+    transform: scaleY(2.2);
+}
+.contentImg:hover{
+    transform: scale(1.1);
+}
+label,input,submit{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gender{
+    display: inline-flex;
+    width: fit-content;
+}
+span:not(footer span){
+    background-image: linear-gradient(90deg,cyan, blue);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 100ms ease-in;
+    text-decoration: none;
+    margin: 0 2px;
+}
+span:hover:not(footer span){
+    background-size: 100% 3px;
+    font-size:2rem;
+}
+input,select{
+    width: 100%;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+  @-webkit-keyframes bg-pan-bottom {
+    0% {
+      background-position: 50% 0%;
+    }
+    100% {
+      background-position: 50% 100%;
+    }
+  }
+  @keyframes bg-pan-bottom {
+    0% {
+      background-position: 50% 0%;
+    }
+    100% {
+      background-position: 50% 100%;
+    }
+  }
+  

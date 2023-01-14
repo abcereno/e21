@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="topBot"></div>
+    <div id="container">
+        <div id="header">
+            <div  class="headerImg"><img id="logo" src="logo1.png"></div><div id="midLinks"
+                    ><ul id="headerUl">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul
+                ></div
+                ><div class="headerUser"><img id="userPic" src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/299231816_1380582169140196_9001248456629479003_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeE_5H9qYs1VrhQV1Jf7Hh5RBrY8nUNTk20GtjydQ1OTbc4ZkU7Quajt0I81iuf-U6Vdzq1Ax6S-8ngrtzUeyJwM&_nc_ohc=8g5n1dV49rcAX8Nl5Sc&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfBCroCU1qenklZF2slozBhU9SNQ5JHyvh1hdgl0TyqOhQ&oe=63BC393F" alt=""
+        /></div></div
+        ><div id="nav">
+            <ul id="navUl">
+                <li class="navLi"><a href="#"><span>Home</span></i></a></li>
+                <li class="navLi"><a href="#"><span>AFFILIATE</span></i></a></li>
+                <li class="navLi"><a href="#"><span>PORTFOLIO</span></i></a></li>
+                <li class="navLi"><a href="#"><span>INTERESTS</span></i></a></li>
+                <li class="navLi"><a href="#"><span>LANGUAGES</span></i></a></li>
+                <li class="navLi"><a href="#"><span>ACHIEVEMENTS</span></i></a></li>
+                <li class="navLi"><a href="#"><span>CONTACT</span></i></a></li>
+            </ul>
+        </div
+        ><hr><div id="content">
+            <div id="contentRight">
+                <h1 id="formh1">Register Now!</h1>
+                <form>
+                    <label>First Name:</label>
+                    <input placeholder="Firstname" type="text" name="fname" required
+                    />
+                    
+                    <label>Middle Name:</label>
+                    <input placeholder="Middlename" type="text" name="mname" 
+                    required/>
+                    
+                    <label>Last Name:</label>
+                    <input placeholder="Lastname" type="text" name="lname" 
+                    required/>
+                    
+                    <label>Course:</label>   
+                    <select>
+                        <option selected required>-Course-</option>
+                        <option value="ece">Electronics Engineering</option>
+                        <option value="cpe">Computer Engineering</option>
+                        <option value="me">Mechanical Engineering</option>
+                        <option value="ce">Civil Engineering</option>
+                        <option value="ee">Electrical Engineering</option>
+                    </select>
+                    <br>
+                    <label required>Gender:</label>
+                    
+                    <input class="gender" type="radio" name="gender"/>Female 
+                    <input class="gender"type="radio" name="gender"/>Male 
+                    <input class="gender"type="radio" name="gender"/>Other
+                    <br>
+                    <label>Phone:</label>
+                    <input type="tel" value="+63" 
+                        />
+                    <input placeholder="phone no." type="tel" name="phone" required/>
+                    
+                    <label>Address:</label>
+                    <textarea cols="70" rows="5" value="Address"></textarea>
+                    <label>Email:</label>
+                    <input placeholder="Enter Email" type="email" name="email" 
+                        />
+                    
+                    <label>Password:</label>
+                    <input placeholder="Enter Password" type="password" name="pword" required
+                        />
+                    
+                    <label>Re-type password:</label>
+                    <input placeholder="Retype Password" type="password" name="rpword" required/>
+                    
+                    <input id="submit" type="submit" name="submit" value="REGISTER" 
+                        />
+                </form>
+            </div>
+            <div id="contentLeft">
+                <div id="promotionalB"><h1>Become A Millionaire Today!</h1></div>
+                <div id="content2nd">
+                    <div class="insideContent2nd">
+                        <h2 class="contentH2">Scan Now!</h2>
+                        <img class="contentImg" src="me.png" alt=""/>
+                    </div>
+                    <div class="insideContent2nd">
+                        <h2 class="contentH2">Ask Me How!</h2>
+                        <img class="contentImg" src="me.png" alt=""/>
+                    </div>
+                </div>
+                <div id="content3rd">
+                    <img class="lowerBanner" id="nat" src="ex5.png" alt=""/>
+                    <img class="lowerBanner" id="midB" src="ex7.png" alt=""/>
+                    <img class="lowerBanner" id="cert" src="ex8.png" alt=""/>
+                </div>
+            </div>
+        </div
+    ></div>
+    <footer class="footer">
+        <ul>
+            <span>©2023 ABCereno. All Rights Reserved.</span>
+            <span><a href="#">Terms & Conditions</a></span>|<span><a href="#">Privacy Policy</a></span>
+        </footer>
+</body>
+</html>
