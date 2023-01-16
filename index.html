@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
 </head>
 <body>
-    <div class="topBot"></div>
-    <div id="container">
-        <div id="header">
-            <div  class="headerImg"><img id="logo" src="logo1.png"></div><div id="midLinks"
-                    ><ul id="headerUl">
+    <div class="topBot"></div>   
+    <div class="container-fluid p-0" id="container">
+        <div class="row d-flex justify-content-start m-0" id="header">
+            <div class="headerImg col-4 p-0"><img id="logo" src="logo1.png"></div>
+            <div class="col-2 p-0" id="midLinks"
+                    ><ul  class="col-sm p-0" id="headerUl">
                         <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
@@ -21,10 +24,10 @@
                         <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
                     </ul
                 ></div
-                ><div class="headerUser"><img id="userPic" src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/299231816_1380582169140196_9001248456629479003_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeE_5H9qYs1VrhQV1Jf7Hh5RBrY8nUNTk20GtjydQ1OTbc4ZkU7Quajt0I81iuf-U6Vdzq1Ax6S-8ngrtzUeyJwM&_nc_ohc=8g5n1dV49rcAX8Nl5Sc&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfBCroCU1qenklZF2slozBhU9SNQ5JHyvh1hdgl0TyqOhQ&oe=63BC393F" alt=""
+                ><div class="headerUser col-2 p-0"><img id="userPic" src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t39.30808-6/299231816_1380582169140196_9001248456629479003_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeE_5H9qYs1VrhQV1Jf7Hh5RBrY8nUNTk20GtjydQ1OTbc4ZkU7Quajt0I81iuf-U6Vdzq1Ax6S-8ngrtzUeyJwM&_nc_ohc=8g5n1dV49rcAX8Nl5Sc&_nc_ht=scontent.fmnl17-3.fna&oh=00_AfBCroCU1qenklZF2slozBhU9SNQ5JHyvh1hdgl0TyqOhQ&oe=63BC393F" alt=""
         /></div></div
-        ><div id="nav">
-            <ul id="navUl">
+        ><div class="col-4 p-0" id="nav">
+            <ul class="p-0 bg-danger"id="navUl">
                 <li class="navLi"><a href="#"><span>Home</span></i></a></li>
                 <li class="navLi"><a href="#"><span>AFFILIATE</span></i></a></li>
                 <li class="navLi"><a href="#"><span>PORTFOLIO</span></i></a></li>
@@ -34,10 +37,10 @@
                 <li class="navLi"><a href="#"><span>CONTACT</span></i></a></li>
             </ul>
         </div
-        ><hr><div id="content">
-            <div id="contentRight">
+        ><hr><div class="d-xs-block m-0 p-0" id="content">
+            <div class="d-xs-block bg-info" id="contentRight">
                 <h1 id="formh1">Register Now!</h1>
-                <form>
+                <form class="bg-success">
                     <label>First Name:</label>
                     <input placeholder="Firstname" type="text" name="fname" required
                     />
@@ -88,15 +91,15 @@
                         />
                 </form>
             </div>
-            <div id="contentLeft">
-                <div id="promotionalB"><h1>Become A Millionaire Today!</h1></div>
+            <div class="d-sm-block bg-info"id="contentLeft">
+                <div class="bg-success word-wrap text-wrap overflow-hidden" id="promotionalB"><h1 class="m-0 p-0">Become A Millionaire</h1></div>
                 <div id="content2nd">
                     <div class="insideContent2nd">
                         <h2 class="contentH2">Scan Now!</h2>
                         <img class="contentImg" src="me.png" alt=""/>
                     </div>
                     <div class="insideContent2nd">
-                        <h2 class="contentH2">Ask Me How!</h2>
+                        <h2 class="contentH2">Ask Now!</h2>
                         <img class="contentImg" src="me.png" alt=""/>
                     </div>
                 </div>
@@ -108,7 +111,7 @@
             </div>
         </div
     ></div>
-    <footer class="footer">
+    <footer class="text-white d-xs-block">
         <ul>
             <span>©2023 ABCereno. All Rights Reserved.</span>
             <span><a href="#">Terms & Conditions</a></span>|<span><a href="#">Privacy Policy</a></span>

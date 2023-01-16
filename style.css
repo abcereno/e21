@@ -27,9 +27,10 @@ body{
     background-image:url(https://www.teahub.io/photos/full/113-1136261_deep-ocean-wallpaper-free-download.jpg);
     background-size: 200%;
     animation: bg-pan-bottom 8s 1 alternate both;
+    overflow-x: hidden;
 }
 #container{
-    width: min(500px,80%);
+    width: min(720px,80%);
     height: min(500px,90%,70vh);
     padding: 0 10px 0 10px;
     background:transparent;
@@ -92,7 +93,7 @@ li{
     height: 100%;
 }
 #userPic{
-    height: 100%;
+    height: 60px;
     width: 100%;
     border-radius: 30%;
 }
@@ -237,12 +238,12 @@ h1,h2{
 ::-webkit-scrollbar-corner {
     background: #000;
 }
-#nat:hover{
+/* #nat:hover{
     rotate: -90deg;
 }
 #midB:hover{
     rotate: 90deg;
-}
+} */
 .contentImg,img{
     border-radius: 10%;
 }
@@ -258,7 +259,7 @@ i:hover{
 }
 .lowerBanner:hover{
     transform: scale(1.1);
-    transform: scaleY(2.2);
+    /* transform: scaleY(2.2); */
 }
 .contentImg:hover{
     transform: scale(1.1);
@@ -284,7 +285,6 @@ span:not(footer span){
 }
 span:hover:not(footer span){
     background-size: 100% 3px;
-    font-size:2rem;
 }
 input,select{
     width: 100%;
