@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.bundle.js"></script>
 </head>
-<body class="w-100"> 
-    <div class="container-fluid p-0 m-0" id="container">
+<body class="w-100 bg-dark"> 
+    <header class="container h-25">
         <div class="row" id="header">
-            <div class=" col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center headerImg"
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center headerImg"
                 ><img class="img-fluid p-0 m-0" id="logo" src="logo1.png"
             ></div>
             <div class=" col-lg-4 col-md-12 col-sm-12 d-flex align-items-center" id="midLinks"
@@ -26,11 +26,13 @@
                     </ul
             ></div  
             ><div class=" col-lg-4 col-md-12 col-sm-12 headerUser d-flex justify-content-center"
-                ><img class=" img-fluid p-0 m-0 d-flex justify-content-center" id="userPic" src="me.png" alt=""
+                ><img class=" p-0 m-0 d-flex justify-content-center" id="userPic" src="me.png" alt=""
             /></div
         ></div
-        ><div class="row m-0 p-0" id="nav">
-            <ul class="col-md p-0 bg-danger d-flex justify-content-evenly text-decoration-none list-unstyled flex-wrap"id="navUl">
+        ></header>
+    <div class="container">
+        <div class="row m-auto" id="nav">
+            <ul class="col-md p-0 d-flex justify-content-evenly text-decoration-none list-unstyled flex-wrap"id="navUl">
                 <li class="m-2 navLi"><a href="#"><span>Home</span></i></a></li>
                 <li class="m-2 navLi"><a href="#"><span>AFFILIATE</span></i></a></li>
                 <li class="m-2 navLi"><a href="#"><span>PORTFOLIO</span></i></a></li>
@@ -40,7 +42,9 @@
                 <li class="m-2 navLi"><a href="#"><span>CONTACT</span></i></a></li>
             </ul>
         </div>
+    </div>
         <hr>
+    <div class="container">
         <div class="row m-auto p-0" id="content">
             <div class="col-md p-0 m-0 bg-info" id="contentRight">
                 <h1 class="row-cols-md-12 d-flex justify-content-center m-0 p-0"id="formh1">Register Now!</h1>
@@ -129,8 +133,8 @@
                     <span class="visually-hidden">Next</span>
                   </button>
             </div>
-        </div
-    ></div>
+        </div>
+    </div>
     <footer class="d-flex justify-content-center">
             <span>©2023 ABCereno. All Rights Reserved.</span>
             <span><a href="#">Terms & Conditions</a></span>|<span><a href="#">Privacy Policy</a></span>
